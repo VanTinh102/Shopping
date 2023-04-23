@@ -1,0 +1,184 @@
+.cart__header{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 5px gray;
+    padding: 0 150px;
+}
+
+.cart__header-logo{
+    width: 10%;
+    transform: translateY(-26%);
+    margin-right: 8px;
+}
+
+.cart__header-title{
+    display: inline;
+    line-height: 100px;
+    font-size: 2.3rem;
+    padding: 0 8px;
+    border-left: 3px solid #2ec1f6;
+}
+
+/* End Cart Header */
+/* Begin Cart Body */
+
+    /* Begin Cart Intro */
+.cart__body{
+    height: 1000px;
+}
+
+.cart__intro{
+    margin-top: 24px;
+    height: 50px;
+    background-color: white;
+}
+
+
+.cart__title{
+    position: relative;
+    line-height: 50px;
+    font-size: 1.9rem;
+    font-weight: 600;
+    width: 100%;
+    padding-left: 40%;
+}
+
+.cart__title i{
+    font-size: 3rem;
+    color: #2ec1f6;
+}
+
+.cart__title::before{
+    position: absolute;
+    content: "Fee";
+    font-size: 1.7rem;
+    color: rgb(244, 239, 239);
+    top: -15%;
+}
+    /* End Card Intro */
+    /* Begin Card Taskbar */
+.cart__taskbar{
+    margin-top: 24px;
+    height: 50px;
+    background-color: white;
+    line-height: 50px;
+    margin-bottom: 24px;
+}
+
+.cart__taskbar-ipt{
+    text-align: right;
+    transform: translateY(7%);
+}
+
+.cart__taskbar-products{
+    font-size: 1.8rem;
+}
+
+.cart__taskbar-title{
+    font-size: 1.6rem;
+    text-align: center;
+}
+    /* End Cart Taskbar */
+    /* Begin Cart Product */
+.cart__product{
+    text-align: center;
+    font-size: 1.8rem;
+    min-height: 50px;
+    padding: 16px 0;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(0, 200, 255);
+    margin-bottom: 12px;
+}
+
+.cart__product-title{
+    text-align: left;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    height: 48px;
+    line-height: 24px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.cart__product-type{
+    color: rgb(160, 130, 130);
+}
+
+.cart__product-size{
+    border: 1px solid rgb(128, 128, 128);
+    
+}
+
+.cart__product-size:hover{
+    background-color: black;
+    color: #2ec1f6;
+}
+
+.cart__product-ipt{
+    line-height: 100px;
+    text-align: right;
+}
+
+.cart__product-price{
+    line-height: 100px;
+}
+.cart__product-quantity{
+    display: flex;
+    transform: translate(23%, 40%);
+}
+.cart__product-total{
+    line-height: 100px;
+}
+.cart__product-delete{
+    line-height: 100px;
+}
+
+.cart__product-quantity-number{
+    width: 35%;
+    height: 24px;
+    border: 1px solid rgb(186, 182, 182);
+    text-align: center;
+}
+
+.cart__product-minus{
+    font-size: 1.3rem;
+    border: 1px solid rgb(186, 182, 182);
+    height: 24px;
+    line-height: 24px;
+    width: 10%;
+}
+.cart__product-plus{
+    font-size: 1.3rem;
+    border: 1px solid rgb(186, 182, 182);
+    height: 24px;
+    line-height: 24px;
+    width: 10%;
+}
+
+.cart__product-total{
+    color: orangered;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.cart__product-delete-btn{
+    width: 80%;
+    background-color: rgb(3, 16, 8);
+    color: rgb(253, 253, 253);
+    margin: 0 auto;
+    height: 30px;
+    font-weight: 600;
+}
+.body{
+    height: 1450px;
+}
+body{
+    height: 1450px;
+}
+    /* End Cart Product */
+
+.cart{
+    padding-bottom: 24px;
+}
